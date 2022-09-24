@@ -9,6 +9,7 @@ Before running the project, please make sure to download/install those softwares
 - Bash/CMD/Power Shell
 - Editor/IDE for Web/JS
 - Postman
+- pgAdmin - PostgreSQL GUI to view database schema/data
 
 ## Setup .env file
 - Before running the project, add the `.env` file into the root folder of the project
