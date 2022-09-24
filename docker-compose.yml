@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - '5432:5432'
+    env_file:
+      - .env
+  postgres-db-test:
+    image: postgres
+    ports:
+      - '5434:5432'
+    environment:
+      - POSTGRES_DB=storefront_test
+      - POSTGRES_USER=udacity
+      - POSTGRES_PASSWORD=udacity1
+      - POSTGRES_HOST=127.0.0.1
+      
+volumes:
+  postgres:

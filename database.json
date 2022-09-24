@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "database": "storefront",
+    "user": "udacity",
+    "password": "udacity1"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "port": 5434,
+    "database": "storefront_test",
+    "user": "udacity",
+    "password": "udacity1"
+  }
+}
